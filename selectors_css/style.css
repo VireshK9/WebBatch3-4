@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+}
+.head1{
+    color: red;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border: 2px solid blue;
+}
+#div1{
+    background-color: red;
+    border: 2px solid yellowgreen;
+}
