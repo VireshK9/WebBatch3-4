@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    width: 400px;
+    height: 510px;
+    background-color: dodgerblue;
+    text-align: center;
+    border-radius: 5px;
+}
+hr{
+    width: 300px;
+}
+.img1{
+    width: 350px;
+}
+.btn1{
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.price{
+    color: black;
+    text-decoration: line-through;
+    font-size: 14px;
+}

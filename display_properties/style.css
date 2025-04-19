@@ -1,72 +1,15 @@
-body{
-    background-color: black;
-    color: white;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-
-/* Position Realtive */
 /* h1{
-    position:relative;
-    left: 100px;
+    display: inline;
 }
-div{
-    width: 300px;
-    height: 300px;
-    background-color: red;
-    margin: 200px;
+
+a{
+    display: block;
+}
+
+.head1{
+    display: none;
 } */
 
-/* Position Absolute */
-/* #divMain div{
-    width: 200px;
-    height: 200px;
-    background-color: dodgerblue;
-    border: 2px solid white;   
-}
-#div1{
-    position: absolute;
-}
-#div2{
-    margin-left: 400px;
-    position: absolute;
-}
-#div3{
-    margin-left: 800px;
-    position: absolute;
-}
-#div4{
-    margin-left: 1200px;
-    position: absolute;
-}
-#div5{
-    margin-left: 1600px;
-} */
-
-
-/* Position Fixed */
-/* #divMain div{
-    width: 200px;
-    height: 200px;
-    background-color: dodgerblue;
-    border: 2px solid white;   
-}
-#nav{
-    width: 100%;
-    height: 60px;
-    background-color: orangered;
-    border: 2px solid yellow;
-    position: fixed;
-} */
-
-/* Position Sticky */
-.sticky{
-    position: sticky;
-    top: 0;
-    background-color: yellow;
-    padding: 50px;
-    font-size: 20px;
-    color: black;
+.head1{
+    visibility: hidden;
 }
