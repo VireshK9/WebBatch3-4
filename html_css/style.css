@@ -1,6 +1,48 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
 h1{
     color: chocolate;
 }
 p{
     color: yellow;
 }
+
+#divMain div{
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: blue;
+    border: 2px solid white;
+}
+
+#div1{
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+    border: 2px solid white;
+}
+
+.btn1{
+    margin: 100px;
+    padding:1rem 3rem ;
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+/* 
+1.px
+2.rem
+3.% (percent)
+4.vw / vh
+
+16px = 1rem
+
+*/
