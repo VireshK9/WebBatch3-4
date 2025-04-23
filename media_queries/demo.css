@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 80px;
+}
+
+/* Phone */
+@media screen and (max-width:500px) {
+    body{
+        background-color: yellow;
+        color: black;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+/* Tablet */
+@media (min-width:500px) and (max-width:800px) {
+    body{
+        background-color: red;
+    }
+}

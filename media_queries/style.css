@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#divMain{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+
+#divMain div{
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: dodgerblue;
+    border: 2px solid white;
+}
+/* 0px - 565px */
+/* @media screen and (max-width:565px) {
+    #divMain{
+        flex-direction: column;
+        align-items: center;
+        height: 1400px;
+    }
+} */
+
+@media screen and (max-width:565px) {
+    #divMain{
+        height: 1400px;
+        flex-direction: column;
+    }
+}
